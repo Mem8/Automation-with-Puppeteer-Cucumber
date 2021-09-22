@@ -1,0 +1,473 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-automationpractice;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 558000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 448000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 418000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User login with valid account",
+            "match": {
+              "location": "features\\support\\validLogin.test.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters valid \"dsafdsfsfdas@ggg.cc\" and \"32132ASDzdasd\"",
+            "match": {
+              "location": "features\\support\\validLogin.test.js:17"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 11483000000,
+              "error_message": "Error: Protocol error (Runtime.callFunctionOn): Target closed.\n    at D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Connection.js:217:63\n    at new Promise (<anonymous>)\n    at CDPSession.send (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Connection.js:216:16)\n    at ExecutionContext._evaluateInternal (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:204:50)\n    at ExecutionContext.evaluateHandle (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:155:21)\n    at WaitTask.rerun (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\DOMWorld.js:536:37)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User can logged in successfully",
+            "match": {
+              "location": "features\\support\\validLogin.test.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-automationpractice;login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 466000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 494000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User login with invalid account",
+            "match": {
+              "location": "features\\support\\invalidLogin.test.js:14"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 8179000000,
+              "error_message": "Error: Navigation failed because browser has disconnected!\n    at D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\LifecycleWatcher.js:51:147\n    at D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\vendor\\mitt\\src\\index.js:51:62\n    at Array.map (<anonymous>)\n    at Object.emit (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\vendor\\mitt\\src\\index.js:51:43)\n    at CDPSession.emit (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\EventEmitter.js:72:22)\n    at CDPSession._onClosed (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Connection.js:256:14)\n    at Connection._onMessage (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Connection.js:99:25)\n    at runNextTicks (node:internal/process/task_queues:61:5)\n    at listOnTimeout (node:internal/timers:526:9)\n    at processTimers (node:internal/timers:500:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User enters invalid \"dsafdsfsfdsadas@ggg.cc\" and \"4323321342asda4\"",
+            "match": {
+              "location": "features\\support\\invalidLogin.test.js:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User gets error message",
+            "match": {
+              "location": "features\\support\\invalidLogin.test.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-automationpractice;create-new-account",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Create new account",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 517000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "User visits for creating account",
+            "match": {
+              "location": "features\\support\\createNewAcc.test.js:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7878000000,
+              "error_message": "Error: Navigation failed because browser has disconnected!\n    at D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\LifecycleWatcher.js:51:147\n    at D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\vendor\\mitt\\src\\index.js:51:62\n    at Array.map (<anonymous>)\n    at Object.emit (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\vendor\\mitt\\src\\index.js:51:43)\n    at CDPSession.emit (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\EventEmitter.js:72:22)\n    at CDPSession._onClosed (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Connection.js:256:14)\n    at Connection._onMessage (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Connection.js:99:25)\n    at runNextTicks (node:internal/process/task_queues:61:5)\n    at listOnTimeout (node:internal/timers:526:9)\n    at processTimers (node:internal/timers:500:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User \"dsafdsfdsafdsfdas@ggg.cc\" and \"3asdafsF14sd\" and \"firstname\" and \"lastname\" and \"M\" and \"8\" and \"3\" and \"1995\" and \"Adress\" and \"4\" and \"06200\" and \"5555555555\" and \"cucumber\" and \"Ankara\"",
+            "match": {
+              "location": "features\\support\\createNewAcc.test.js:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "User Created successfully",
+            "match": {
+              "location": "features\\support\\createNewAcc.test.js:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-automationpractice;adding-item-to-cart",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Adding item to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 482000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "User access to site for buying something",
+            "match": {
+              "location": "features\\support\\addItemtoCart.test.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "User enters category and item name \"Women\" and \"Chiffon\" and \"3\"",
+            "match": {
+              "location": "features\\support\\addItemtoCart.test.js:20"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 186000000,
+              "error_message": "Error: Protocol error (Runtime.callFunctionOn): Target closed.\n    at D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Connection.js:217:63\n    at new Promise (<anonymous>)\n    at CDPSession.send (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\Connection.js:216:16)\n    at ExecutionContext._evaluateInternal (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:204:50)\n    at ExecutionContext.evaluateHandle (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:155:21)\n    at WaitTask.rerun (D:\\Project\\Puppeteer and cucumber\\node_modules\\puppeteer\\lib\\cjs\\puppeteer\\common\\DOMWorld.js:536:37)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "User add item",
+            "match": {
+              "location": "features\\support\\addItemtoCart.test.js:58"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-automationpractice",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login to automationpractice",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
